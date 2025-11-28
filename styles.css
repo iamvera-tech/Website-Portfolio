@@ -221,7 +221,7 @@ section#work {
   --color-accent: #2e8b57;
 }
 section#contact {
-  background-color: #4b0082;
+  background-color: #A52A2A;
   color: #e6e6fa;
   --color-accent: #ff4500;
 }
@@ -334,5 +334,6 @@ section#footer {
   padding: var(--space-l) var(--space-l);
 
 }
+
 
 
