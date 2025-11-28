@@ -211,7 +211,7 @@ section#hero {
   --color-accent: #8a2be2;
 }
 section#about {
-  background-color: #ffffff;
+  background-color: #EFEEE5;
   color: #333;
   --color-accent: #ffd700;
 }
@@ -334,3 +334,4 @@ section#footer {
   padding: var(--space-l) var(--space-l);
 
 }
+
