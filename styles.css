@@ -217,7 +217,7 @@ section#about {
 }
 section#work {
   background-color: #008080;
-  color: #000080;
+  color: #C0C0C0;
   --color-accent: #2e8b57;
 }
 section#contact {
@@ -334,6 +334,7 @@ section#footer {
   padding: var(--space-l) var(--space-l);
 
 }
+
 
 
 
