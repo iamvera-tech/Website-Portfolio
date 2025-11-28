@@ -216,7 +216,7 @@ section#about {
   --color-accent: #ffd700;
 }
 section#work {
-  background-color: #87ceeb;
+  background-color: #008080;
   color: #0c0c0c;
   --color-accent: #2e8b57;
 }
@@ -334,6 +334,7 @@ section#footer {
   padding: var(--space-l) var(--space-l);
 
 }
+
 
 
 
