@@ -326,10 +326,11 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #228B22;
 }
 
 /* footer section */
 section#footer {
   padding: var(--space-l) var(--space-l);
+
 }
