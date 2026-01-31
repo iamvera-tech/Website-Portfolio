@@ -129,6 +129,44 @@ animation-delay: 1s;
   </div>
 </div>
 </div>
+	 <script src="https://cdn.tailwindcss.com">
+</script>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        keyframes: {
+          typing: {
+            "0%": {
+              width: "0%",
+              visibility: "hidden"
+            },
+            "100%": {
+              width: "100%"
+            }
+          },
+          blink: {
+            "50%": {
+              borderColor: "transparent"
+            },
+            "100%": {
+              borderColor: "white"
+            }
+          }
+        },
+        animation: {
+          typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
+        }
+      },
+    },
+    plugins: [],
+  }
+</script>
+ 
+</div>            
+</div>
+          </div>
           <ul role="list" class="flex flex_between hero_social">
            <address>  <p class="text-white"> 📍  Lagos, Nigeria</p></address>
     
@@ -275,6 +313,7 @@ My place Of birth is Nigeria, I've spent over 10 years designing corporate websi
       </body>
      </html>
  
+
 
 
 
