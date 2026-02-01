@@ -201,14 +201,14 @@ section {
   padding: var(--space-2xl) var(--space-l);
 }
 section#hero {
-  background: linear-gradient(rgba(26, 26, 64, 0.9), rgba(26, 26, 64, 0.9)),
-    url("images/background_image.jpg");
+  background: linear-gradient(rgba(80, 80, 64, 0.9), rgba(80, 80, 64, 0.9)),
+    url("/assets/bckgrnd_img.jpg");
   padding-bottom: 4px;
   background-size: cover;
   background-position: top;
   background-attachment: scroll;  
-  color: #50C878;
-  --color-accent: #8a2be2;
+  color: #FFFDD0;
+  --color-accent: #FFFFCC;
 }
 
  
@@ -335,3 +335,4 @@ button[type="submit"]:hover {
 section#footer {
   padding: var(--space-l) var(--space-l);
 }
+
