@@ -202,7 +202,7 @@ section {
 }
 section#hero {
   background: linear-gradient(rgba(80, 80, 64, 0.1), rgba(80, 80, 64, 0.1)),
-    url("/assets/bckgrnd_img.jpg");
+    url("images/bckgrnd_img.jpg");
   padding-bottom: 4px;
   background-size: cover;
   background-position: top;
@@ -335,5 +335,6 @@ button[type="submit"]:hover {
 section#footer {
   padding: var(--space-l) var(--space-l);
 }
+
 
 
