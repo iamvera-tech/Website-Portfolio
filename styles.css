@@ -228,7 +228,7 @@ section#contact {
   --color-accent: #ff4500;
 }
 section#footer {
-  background-color: #181E4C;
+  background-color: #4c516d;
   color: #fafafa;
   --color-accent: #8a2be2;
 }
@@ -335,6 +335,7 @@ button[type="submit"]:hover {
 section#footer {
   padding: var(--space-l) var(--space-l);
 }
+
 
 
 
