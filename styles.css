@@ -213,7 +213,7 @@ section#hero {
 
  
 section#about {
-  background-color: #EFEEE5;
+  background-color: #FFC0CB;
   color: #333;
   --color-accent: #ffd700;				 
 }
@@ -335,6 +335,7 @@ button[type="submit"]:hover {
 section#footer {
   padding: var(--space-l) var(--space-l);
 }
+
 
 
 
