@@ -201,7 +201,7 @@ section {
   padding: var(--space-2xl) var(--space-l);
 }
 section#hero {
-  background: linear-gradient(rgba(80, 80, 64, 0.9), rgba(80, 80, 64, 0.9)),
+  background: linear-gradient(rgba(80, 80, 64, 0.1), rgba(80, 80, 64, 0.1)),
     url("/assets/bckgrnd_img.jpg");
   padding-bottom: 4px;
   background-size: cover;
@@ -335,4 +335,5 @@ button[type="submit"]:hover {
 section#footer {
   padding: var(--space-l) var(--space-l);
 }
+
 
