@@ -272,12 +272,12 @@ section#footer {
   padding: 5px;
 }
 .about_img {
-  width: 300px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   object-fit: cover;
 }
 .about_caption {
-  padding: var(--space-3xs) 0;
+  padding: var(--space-4xs) 0;
 }
 
 /* work section */
@@ -335,6 +335,7 @@ button[type="submit"]:hover {
 section#footer {
   padding: var(--space-l) var(--space-l);
 }
+
 
 
 
