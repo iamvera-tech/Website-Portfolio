@@ -41,18 +41,18 @@ body {
 }
 
 .topnav .icon {
-  display: block;
+  display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: block;}
+@media screen and (min-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
 .topnav a.icon {
    float: right; 
     display: block;
   }  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -458,6 +458,7 @@ My place Of birth is Nigeria, I've spent over 10 years designing corporate websi
       </body>
      </html>
  
+
 
 
 
