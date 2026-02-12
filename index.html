@@ -74,9 +74,9 @@ body {
 <div class="wrapper_inner">
 <div class="topnav" id="myTopnav">
   <a href="#home" class="active">HOME</a>
-  <a href="#about">ABOUT</a>
-  <a href="#work">WORK</a>
-  <a href="#contact">CONTACT</a>
+  <a href="#about" class="active">ABOUT</a>
+  <a href="#work" class="active">WORK</a>
+  <a href="#contact" class="active">CONTACT</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     
   </a>
@@ -89,7 +89,7 @@ body {
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
-    x.className += " absolute";
+    x.className += " responsive";
   } else {
     x.className = "topnav";
   }
@@ -458,6 +458,7 @@ My place Of birth is Nigeria, I've spent over 10 years designing corporate websi
       </body>
      </html>
  
+
 
 
 
